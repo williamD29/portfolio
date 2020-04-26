@@ -1,0 +1,323 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Windsurf",
+            "tags": ["Site web", "Site vitrine"],
+            "description": ["Site web sur le thème de la planche à voile."],
+            "technologies": [
+                {
+                    "name": "HTML",
+                    "class": "badge html"
+                },
+                {
+                    "name": "CSS",
+                    "class": "badge css"
+                },
+                {
+                    "name": "Javascript",
+                    "class": "badge javascript"
+                },
+                {
+                    "name": "PHP",
+                    "class": "badge php"
+                },
+                {
+                    "name": "Bootstrap",
+                    "class": "badge bootstrap"
+                }
+            ],
+            "images": [
+                {
+                    "location": "slide",
+                    "name": "",
+                    "src": ""
+                },
+                {
+                    "location": "main",
+                    "name": "",
+                    "src": ""
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Cryptologie",
+            "tags": ["Site web", "Site vitrine"],
+            "description": ["Site web sur le thème de la cryptologie."],
+            "technologies": [
+                {
+                    "name": "HTML",
+                    "class": "badge html"
+                },
+                {
+                    "name": "CSS",
+                    "class": "badge css"
+                },
+                {
+                    "name": "Javascript",
+                    "class": "badge javascript"
+                }
+            ],
+            "images": [
+                {
+                    "location": "slide",
+                    "name": "",
+                    "src": ""
+                },
+                {
+                    "location": "main",
+                    "name": "",
+                    "src": ""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Simulation de consommation électrique",
+            "tags": ["Logiciel"],
+            "description": [
+                "Application de bureau permettant d'estimer la consommation électrique d'un bâtiment, prenant en compte les différents équipements électriques ainsi que les matériaux de construction."
+            ],
+            "technologies": [
+                {
+                    "name": "Java",
+                    "class": "badge java"
+                },
+                {
+                    "name": "JavaFx",
+                    "class": "badge javafx"
+                },
+                {
+                    "name": "CSS",
+                    "class": "badge css"
+                }
+            ],
+            "images": [
+                {
+                    "location": "slide",
+                    "name": "",
+                    "src": ""
+                },
+                {
+                    "location": "main",
+                    "name": "",
+                    "src": ""
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Octopus Deep Sea Exploration",
+            "tags": ["Site web", "Site vitrine"],
+            "description": [
+                "Site vitrine pour une entreprise fictive d'exploration des fonds marins."
+            ],
+            "technologies": [
+                {
+                    "name": "HTML",
+                    "class": "badge html"
+                },
+                {
+                    "name": "CSS",
+                    "class": "badge css"
+                },
+                {
+                    "name": "Javascript",
+                    "class": "badge javascript"
+                }
+            ],
+            "images": [
+                {
+                    "location": "slide",
+                    "name": "",
+                    "src": ""
+                },
+                {
+                    "location": "main",
+                    "name": "",
+                    "src": ""
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Pokedex",
+            "tags": ["Application web"],
+            "description": [
+                "Cette application web permet la gestion individualisée d'une collection de Pokemon par plusieurs utilisateurs.",
+                "L'application affiche le contenu (limité à 10 éléments) d'un pokedex, c'est-à-dire une liste de Pokemon existant dans la nature, avec quelques-unes de leurs caractéristiques.",
+                "Un utilisateur peut donc ajouter ou supprimer des Pokemon de sa collection."
+            ],
+            "technologies": [
+                {
+                    "name": "HTML",
+                    "class": "badge html"
+                },
+                {
+                    "name": "CSS",
+                    "class": "badge css"
+                },
+                {
+                    "name": "Bootstrap",
+                    "class": "badge bootstrap"
+                },
+                {
+                    "name": "PHP",
+                    "class": "badge php"
+                },
+                {
+                    "name": "CodeIgniter",
+                    "class": "badge codeigniter"
+                }
+            ],
+            "images": [
+                {
+                    "location": "slide",
+                    "name": "",
+                    "src": ""
+                },
+                {
+                    "location": "main",
+                    "name": "",
+                    "src": ""
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "LGBT",
+            "tags": ["Application web"],
+            "description": [
+                "Le but de ce projet était de réaliser une application web permettant de gérer la bibliothèque d’un utilisateur.",
+                "Un utilisateur, après avoir créé un compte et s’être connecté sur le site web, a accès à une liste de livres liée à une base de données. Il peut ajouter ou supprimer des ouvrages de sa bibliothèque personnelle afin de savoir quels livres il a déjà lus."
+            ],
+            "technologies": [
+                {
+                    "name": "HTML",
+                    "class": "badge html"
+                },
+                {
+                    "name": "CSS",
+                    "class": "badge css"
+                },
+                {
+                    "name": "Bootstrap",
+                    "class": "badge bootstrap"
+                },
+                {
+                    "name": "Javascript",
+                    "class": "badge javascript"
+                },
+                {
+                    "name": "PHP",
+                    "class": "badge php"
+                },
+                {
+                    "name": "CodeIgniter",
+                    "class": "badge codeigniter"
+                }
+            ],
+            "images": [
+                {
+                    "location": "slide",
+                    "name": "",
+                    "src": ""
+                },
+                {
+                    "location": "main",
+                    "name": "",
+                    "src": ""
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Comics",
+            "tags": ["Application web"],
+            "description": [],
+            "technologies": [
+                {
+                    "name": "HTML",
+                    "class": "badge html"
+                },
+                {
+                    "name": "CSS",
+                    "class": "badge css"
+                },
+                {
+                    "name": "Tailwindcss",
+                    "class": "badge tailwind"
+                },
+                {
+                    "name": "Javascript",
+                    "class": "badge javascript"
+                },
+                {
+                    "name": "PHP",
+                    "class": "badge php"
+                },
+                {
+                    "name": "CodeIgniter",
+                    "class": "badge codeigniter"
+                }
+            ],
+            "images": [
+                {
+                    "location": "slide",
+                    "name": "",
+                    "src": ""
+                },
+                {
+                    "location": "main",
+                    "name": "",
+                    "src": ""
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Webidacta",
+            "tags": ["Application web"],
+            "description": [],
+            "technologies": [
+                {
+                    "name": "HTML",
+                    "class": "badge html"
+                },
+                {
+                    "name": "CSS",
+                    "class": "badge css"
+                },
+                {
+                    "name": "Tailwindcss",
+                    "class": "badge tailwind"
+                },
+                {
+                    "name": "Javascript",
+                    "class": "badge javascript"
+                },
+                {
+                    "name": "PHP",
+                    "class": "badge php"
+                },
+                {
+                    "name": "CodeIgniter",
+                    "class": "badge codeigniter"
+                }
+            ],
+            "images": [
+                {
+                    "location": "slide",
+                    "name": "",
+                    "src": ""
+                },
+                {
+                    "location": "main",
+                    "name": "",
+                    "src": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,166 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* purgecss end ignore */
+@import 'tailwindcss/utilities';
+
+body {
+    height: 1000px;
+    @apply font-body text-gray-800;
+}
+
+.display-1 {
+    @apply text-6xl font-black;
+}
+.display-2 {
+    @apply text-4xl font-black;
+}
+.display-3 {
+    @apply text-3xl font-black;
+}
+.display-4 {
+    @apply text-2xl font-bold;
+}
+.display-5 {
+    @apply text-xl font-bold;
+}
+.display-6 {
+    @apply text-lg font-bold;
+}
+
+.badge {
+    @apply py-1 px-2 text-sm rounded-md bg-gray-100 text-gray-800 font-semibold;
+}
+.badge.small {
+    @apply text-xs;
+}
+.badge.info {
+    @apply bg-teal-100 text-teal-800;
+}
+.badge.php {
+    @apply bg-indigo-100 text-indigo-800;
+}
+.badge.codeigniter {
+    @apply bg-red-100 text-red-800;
+}
+.badge.html {
+    @apply bg-orange-100 text-orange-800;
+}
+.badge.css {
+    @apply bg-blue-100 text-blue-800;
+}
+.badge.javascript {
+    @apply bg-yellow-100 text-yellow-800;
+}
+.badge.codeigniter {
+    @apply bg-red-100 text-red-800;
+}
+.badge.bootstrap {
+    @apply bg-purple-100 text-purple-800;
+}
+.badge.tailwind {
+    @apply bg-teal-100 text-teal-800;
+}
+.badge.vuejs {
+    @apply bg-green-100 text-green-800;
+}
+.badge.nuxt {
+    @apply bg-green-100 text-green-800;
+}
+.badge.java {
+    @apply bg-red-100 text-red-800;
+}
+.badge.javafx {
+    @apply bg-orange-100 text-orange-800;
+}
+
+.link {
+    background: linear-gradient(
+            to top,
+            transparent 10%,
+            #7edce1 10.01%,
+            #7edce1 30%,
+            transparent 30.01%
+        )
+        no-repeat;
+    background-size: 100% 100%;
+    transition: background-size 0.3s;
+}
+
+.link:hover {
+    animation: highlight 1s both;
+}
+
+@keyframes highlight {
+    from {
+        background-size: 100% 100%;
+        background-position: bottom right;
+    }
+    50% {
+        background-size: 0 100%;
+        background-position: bottom right;
+    }
+    50.01% {
+        background-position: bottom left;
+    }
+    100% {
+        background-size: 100% 100%;
+        background-position: bottom left;
+    }
+}
+
+@supports (mix-blend-mode: lighten) {
+    .blend {
+        display: inline-block;
+        position: relative;
+        background: white;
+        mix-blend-mode: multiply;
+    }
+    .blend:hover::before {
+        width: 100%;
+    }
+    .blend::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 0;
+        background-color: #2b94a2;
+        pointer-events: none;
+        transition: width 0.3s ease-out;
+    }
+    .blend::before {
+        mix-blend-mode: screen;
+    }
+}
+
+.focus\:shadow-outline-teal:focus {
+    box-shadow: 0 0 0 3px #39bdca50;
+}
+.focus\:shadow-outline-teal-xs:focus {
+    box-shadow: 0 0 0 3px #39bdca50, 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+.focus\:shadow-outline-teal-sm:focus {
+    box-shadow: 0 0 0 3px #39bdca50, 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.focus\:shadow-outline-teal-normal:focus {
+    box-shadow: 0 0 0 3px #39bdca50, 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+        0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.focus\:shadow-outline-teal-md:focus {
+    box-shadow: 0 0 0 3px #39bdca50, 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.focus\:shadow-outline-teal-lg:focus {
+    box-shadow: 0 0 0 3px #39bdca50, 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.focus\:shadow-outline-teal-xl:focus {
+    box-shadow: 0 0 0 3px #39bdca50, 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+        0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.focus\:shadow-outline-teal-2xl:focus {
+    box-shadow: 0 0 0 3px #39bdca50, 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
