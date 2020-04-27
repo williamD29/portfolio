@@ -1,22 +1,22 @@
 <template>
     <div>
-        <div class="container mx-auto">
-            <Home />
-        </div>
-        <Slider :projects="projects" />
-        <BaseButton button-class="text-xl px-5">Mon CV</BaseButton>
+        <Home />
+        <skills />
+        <Projects :projects="projects" />
     </div>
 </template>
 
 <script>
 import { mapState } from 'vuex'
-import Slider from '@/components/Slider.vue'
 import Home from '@/components/Home.vue'
+import Skills from '@/components/Skills.vue'
+import Projects from '@/components/Projects.vue'
 
 export default {
     components: {
-        Slider,
-        Home
+        Home,
+        Skills,
+        Projects
     },
     async asyncData({ store, error }) {
         try {

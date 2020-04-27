@@ -4,9 +4,7 @@
         class="slide-link block rounded-lg bg-white shadow-lg overflow-hidden focus:shadow-outline-teal focus:shadow-outline-teal-lg"
     >
         <div class="overflow-hidden">
-            <div v-show="loading" class="skeleton"></div>
             <img
-                v-show="!loading"
                 class="project-preview"
                 src="@/assets/images/Comics-slide.png"
                 alt="nge"
@@ -59,29 +57,5 @@ export default {
 
 .slide-link {
     outline: 0;
-}
-
-.skeleton {
-    height: 200px;
-    @apply bg-gray-200 w-full relative;
-}
-.skeleton::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 50%;
-    height: 100%;
-    background: linear-gradient(to right, #e2e8f0, #fbfdfe, #e2e8f0);
-    animation: slide 1s both;
-}
-
-@keyframes slide {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translateX(100%);
-    }
 }
 </style>
