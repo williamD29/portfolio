@@ -3,6 +3,7 @@
         {
             "id": 1,
             "title": "Windsurf",
+            "data": "2016",
             "tags": ["Site web", "Site vitrine"],
             "description": ["Site web sur le thème de la planche à voile."],
             "technologies": [
@@ -43,6 +44,7 @@
         {
             "id": 2,
             "title": "Cryptologie",
+            "date": "2017",
             "tags": ["Site web", "Site vitrine"],
             "description": ["Site web sur le thème de la cryptologie."],
             "technologies": [
@@ -75,6 +77,7 @@
         {
             "id": 3,
             "title": "Simulation de consommation électrique",
+            "date": "2018",
             "tags": ["Logiciel"],
             "description": [
                 "Application de bureau permettant d'estimer la consommation électrique d'un bâtiment, prenant en compte les différents équipements électriques ainsi que les matériaux de construction."
@@ -109,6 +112,7 @@
         {
             "id": 4,
             "title": "Octopus Deep Sea Exploration",
+            "date": "2018",
             "tags": ["Site web", "Site vitrine"],
             "description": [
                 "Site vitrine pour une entreprise fictive d'exploration des fonds marins."
@@ -143,6 +147,7 @@
         {
             "id": 5,
             "title": "Pokedex",
+            "date": "2018",
             "tags": ["Application web"],
             "description": [
                 "Cette application web permet la gestion individualisée d'une collection de Pokemon par plusieurs utilisateurs.",
@@ -187,6 +192,7 @@
         {
             "id": 6,
             "title": "LGBT",
+            "date": "2019",
             "tags": ["Application web"],
             "description": [
                 "Le but de ce projet était de réaliser une application web permettant de gérer la bibliothèque d’un utilisateur.",
@@ -234,6 +240,7 @@
         {
             "id": 7,
             "title": "Comics",
+            "date": "2019",
             "tags": ["Application web"],
             "description": [],
             "technologies": [
@@ -278,6 +285,7 @@
         {
             "id": 8,
             "title": "Webidacta",
+            "date": "2020",
             "tags": ["Application web"],
             "description": [],
             "technologies": [

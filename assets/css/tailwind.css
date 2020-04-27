@@ -78,13 +78,14 @@ body {
     background: linear-gradient(
             to top,
             transparent 10%,
-            #7edce1 10.01%,
-            #7edce1 30%,
-            transparent 30.01%
+            #39bdca65 10.01%,
+            #39bdca65 40%,
+            transparent 40.01%
         )
         no-repeat;
     background-size: 100% 100%;
     transition: background-size 0.3s;
+    @apply text-gray-800;
 }
 
 .link:hover {

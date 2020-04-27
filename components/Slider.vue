@@ -39,6 +39,7 @@ export default {
 				slidesPerView: 'auto',
 				spaceBetween: 100,
 				freeMode: true,
+				lazy: true,
 				keyboard: {
 					enabled: true
 				},

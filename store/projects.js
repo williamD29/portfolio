@@ -21,7 +21,6 @@ export const actions = {
     },
     async fetchProject({ commit }, title) {
         const response = await ProjectService.getProject(title)
-        console.log(response.data)
         commit('SET_PROJECT', response.data)
     }
 }

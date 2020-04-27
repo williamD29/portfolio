@@ -4,11 +4,14 @@
         class="slide-link block rounded-lg bg-white shadow-lg overflow-hidden focus:shadow-outline-teal focus:shadow-outline-teal-lg"
     >
         <div class="overflow-hidden">
+            <div v-show="loading" class="skeleton"></div>
             <img
+                v-show="!loading"
                 class="project-preview"
                 src="@/assets/images/Comics-slide.png"
                 alt="nge"
                 height="200"
+                @load="isLoaded"
             />
         </div>
         <div class="px-4 py-6">
@@ -16,9 +19,10 @@
             <div class="-mx-1">
                 <span
                     v-for="(tag, index) in project.tags"
-                    :key="'tag-'+index"
+                    :key="'tag-' + index"
                     class="badge info mx-1"
-                >{{tag}}</span>
+                    >{{ tag }}</span
+                >
             </div>
         </div>
     </nuxt-link>
@@ -26,24 +30,58 @@
 
 <script>
 export default {
-	props: {
-		project: {
-			type: Object,
-			required: true
-		}
-	}
+    props: {
+        project: {
+            type: Object,
+            required: true
+        }
+    },
+    data() {
+        return {
+            loading: true
+        }
+    },
+    methods: {
+        isLoaded() {
+            this.loading = false
+        }
+    }
 }
 </script>
 
 <style scoped>
 .project-preview {
-	object-fit: cover;
-	object-position: center center;
-	height: 200px;
-	width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    height: 200px;
+    width: 100%;
 }
 
 .slide-link {
-	outline: 0;
+    outline: 0;
+}
+
+.skeleton {
+    height: 200px;
+    @apply bg-gray-200 w-full relative;
+}
+.skeleton::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, #e2e8f0, #fbfdfe, #e2e8f0);
+    animation: slide 1s both;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(100%);
+    }
 }
 </style>

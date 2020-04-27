@@ -1,5 +1,5 @@
 <template>
-    <nuxt-link id="btn-back" to="/">
+    <nuxt-link id="btn-back" to="/" class="focus:shadow-outline-teal">
         <div class="relative h-full w-full">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
