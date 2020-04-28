@@ -7,7 +7,7 @@
             >
                 <span
                     v-for="(techno, index) in project[0].technologies"
-                    :key="'techno-'+index"
+                    :key="'techno-'+ index"
                     class="m-2"
                     :class="techno.class"
                 >{{techno.name}}</span>
@@ -23,6 +23,16 @@
                     class="font-bold text-lg text-gray-500 mb-3"
                 >{{descriptionLine}}</p>
             </div>
+        </div>
+        <div
+            v-for="(image, index) in parseInt(project[0].images[1].number)"
+            :key="image + '-' + index"
+            class="my-16 shadow-xl"
+        >
+            <img
+                :src="require('@/assets/images/'+ project[0].images[1].name +'Capture' + (index + 1) + '.PNG')"
+                alt="test"
+            />
         </div>
     </div>
 </template>

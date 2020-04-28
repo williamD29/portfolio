@@ -6,7 +6,7 @@
         <div class="overflow-hidden">
             <img
                 class="project-preview"
-                src="@/assets/images/Comics-slide.png"
+                :src="require('@/assets/images/' + project.images[0].name)"
                 alt="nge"
                 height="200"
                 @load="isLoaded"
@@ -19,8 +19,7 @@
                     v-for="(tag, index) in project.tags"
                     :key="'tag-' + index"
                     class="badge info mx-1"
-                    >{{ tag }}</span
-                >
+                >{{ tag }}</span>
             </div>
         </div>
     </nuxt-link>
@@ -28,34 +27,34 @@
 
 <script>
 export default {
-    props: {
-        project: {
-            type: Object,
-            required: true
-        }
-    },
-    data() {
-        return {
-            loading: true
-        }
-    },
-    methods: {
-        isLoaded() {
-            this.loading = false
-        }
-    }
+	props: {
+		project: {
+			type: Object,
+			required: true
+		}
+	},
+	data() {
+		return {
+			loading: true
+		}
+	},
+	methods: {
+		isLoaded() {
+			this.loading = false
+		}
+	}
 }
 </script>
 
 <style scoped>
 .project-preview {
-    object-fit: cover;
-    object-position: center center;
-    height: 200px;
-    width: 100%;
+	object-fit: cover;
+	object-position: center center;
+	height: 200px;
+	width: 100%;
 }
 
 .slide-link {
-    outline: 0;
+	outline: 0;
 }
 </style>

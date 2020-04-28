@@ -2,7 +2,9 @@
     <div>
         <Back v-if="$nuxt.$route.path !== '/'" />
         <Menu />
-        <nuxt />
+        <transition name="fade">
+            <nuxt />
+        </transition>
         <Footer />
     </div>
 </template>
@@ -21,4 +23,13 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+	transition: opacity 0.6s;
+}
+.fade-enter,
+.fade-leave-to {
+	opacity: 0;
+}
+</style>

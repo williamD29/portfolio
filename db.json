@@ -31,13 +31,13 @@
             "images": [
                 {
                     "location": "slide",
-                    "name": "",
-                    "src": ""
+                    "name": "Windsurf-slide.png",
+                    "alt": "Windsurf website preview"
                 },
                 {
                     "location": "main",
-                    "name": "",
-                    "src": ""
+                    "name": "windsurf/",
+                    "number": "2"
                 }
             ]
         },
@@ -64,53 +64,18 @@
             "images": [
                 {
                     "location": "slide",
-                    "name": "",
-                    "src": ""
+                    "name": "Cryptologie-slide.png",
+                    "alt": "Cryptologie website preview"
                 },
                 {
                     "location": "main",
-                    "name": "",
-                    "src": ""
+                    "name": "cryptologie/",
+                    "number": "5"
                 }
             ]
         },
         {
             "id": 3,
-            "title": "Simulation de consommation électrique",
-            "date": "2018",
-            "tags": ["Logiciel"],
-            "description": [
-                "Application de bureau permettant d'estimer la consommation électrique d'un bâtiment, prenant en compte les différents équipements électriques ainsi que les matériaux de construction."
-            ],
-            "technologies": [
-                {
-                    "name": "Java",
-                    "class": "badge java"
-                },
-                {
-                    "name": "JavaFx",
-                    "class": "badge javafx"
-                },
-                {
-                    "name": "CSS",
-                    "class": "badge css"
-                }
-            ],
-            "images": [
-                {
-                    "location": "slide",
-                    "name": "",
-                    "src": ""
-                },
-                {
-                    "location": "main",
-                    "name": "",
-                    "src": ""
-                }
-            ]
-        },
-        {
-            "id": 4,
             "title": "Octopus Deep Sea Exploration",
             "date": "2018",
             "tags": ["Site web", "Site vitrine"],
@@ -134,18 +99,18 @@
             "images": [
                 {
                     "location": "slide",
-                    "name": "",
-                    "src": ""
+                    "name": "ODSE-slide.png",
+                    "alt": "Octopus Deep Sea Exploration website preview"
                 },
                 {
                     "location": "main",
-                    "name": "",
-                    "src": ""
+                    "name": "ODSE/",
+                    "number": "6"
                 }
             ]
         },
         {
-            "id": 5,
+            "id": 4,
             "title": "Pokedex",
             "date": "2018",
             "tags": ["Application web"],
@@ -179,18 +144,18 @@
             "images": [
                 {
                     "location": "slide",
-                    "name": "",
-                    "src": ""
+                    "name": "Pokedex-slide.png",
+                    "alt": "Pokedex website preview"
                 },
                 {
                     "location": "main",
-                    "name": "",
-                    "src": ""
+                    "name": "pokedex/",
+                    "number": "5"
                 }
             ]
         },
         {
-            "id": 6,
+            "id": 5,
             "title": "LGBT",
             "date": "2019",
             "tags": ["Application web"],
@@ -227,67 +192,73 @@
             "images": [
                 {
                     "location": "slide",
-                    "name": "",
-                    "src": ""
+                    "name": "LGBT-slide.png",
+                    "alt": "LGBT website preview"
                 },
                 {
                     "location": "main",
-                    "name": "",
-                    "src": ""
+                    "name": "lgbt/",
+                    "number": "2"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Comics",
+            "date": "2019",
+            "tags": ["Application web"],
+            "description": [
+                "Cette application web permet la gestion individualisée d'une collection de comics par plusieurs utilisateurs.",
+                "L'application affiche le contenu (limité à 10 éléments) d'un ensemble de comics.",
+                "Un utilisateur peut donc ajouter ou supprimer des comics de sa collection."
+            ],
+            "technologies": [
+                {
+                    "name": "HTML",
+                    "class": "badge html"
+                },
+                {
+                    "name": "CSS",
+                    "class": "badge css"
+                },
+                {
+                    "name": "Tailwindcss",
+                    "class": "badge tailwind"
+                },
+                {
+                    "name": "Javascript",
+                    "class": "badge javascript"
+                },
+                {
+                    "name": "PHP",
+                    "class": "badge php"
+                },
+                {
+                    "name": "CodeIgniter",
+                    "class": "badge codeigniter"
+                }
+            ],
+            "images": [
+                {
+                    "location": "slide",
+                    "name": "Comics-slide.png",
+                    "alt": "Comics website preview"
+                },
+                {
+                    "location": "main",
+                    "name": "comics/",
+                    "number": "5"
                 }
             ]
         },
         {
             "id": 7,
-            "title": "Comics",
-            "date": "2019",
-            "tags": ["Application web"],
-            "description": [],
-            "technologies": [
-                {
-                    "name": "HTML",
-                    "class": "badge html"
-                },
-                {
-                    "name": "CSS",
-                    "class": "badge css"
-                },
-                {
-                    "name": "Tailwindcss",
-                    "class": "badge tailwind"
-                },
-                {
-                    "name": "Javascript",
-                    "class": "badge javascript"
-                },
-                {
-                    "name": "PHP",
-                    "class": "badge php"
-                },
-                {
-                    "name": "CodeIgniter",
-                    "class": "badge codeigniter"
-                }
-            ],
-            "images": [
-                {
-                    "location": "slide",
-                    "name": "",
-                    "src": ""
-                },
-                {
-                    "location": "main",
-                    "name": "",
-                    "src": ""
-                }
-            ]
-        },
-        {
-            "id": 8,
             "title": "Webidacta",
             "date": "2020",
             "tags": ["Application web"],
-            "description": [],
+            "description": [
+                "Le projet informatique proposé vise à créer une version logicielle du jeu Lexidata, sous la forme d’une interface Web, afin d’en diminuer les inconvénients ou défauts majeurs et d’y apporter un certain nombre d’améliorations significatives."
+            ],
             "technologies": [
                 {
                     "name": "HTML",
@@ -317,13 +288,13 @@
             "images": [
                 {
                     "location": "slide",
-                    "name": "",
-                    "src": ""
+                    "name": "Webidacta-slide.png",
+                    "alt": "Webidacta website preview"
                 },
                 {
                     "location": "main",
-                    "name": "",
-                    "src": ""
+                    "name": "webidacta/",
+                    "number": "6"
                 }
             ]
         }

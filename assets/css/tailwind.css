@@ -6,7 +6,7 @@
 
 body {
     height: 1000px;
-    @apply font-body text-gray-800;
+    @apply font-body text-gray-800 overflow-x-hidden;
 }
 
 .display-1 {
@@ -118,6 +118,9 @@ body {
         mix-blend-mode: multiply;
     }
     .blend:hover::before {
+        width: 100%;
+    }
+    .blend.active::before {
         width: 100%;
     }
     .blend::before {

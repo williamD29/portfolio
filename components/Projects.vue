@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-200 py-32 relative">
+    <div class="bg-gray-200 py-32 relative overflow-hidden">
         <svg
             id="svg1"
             width="227"
@@ -14,8 +14,25 @@
                 fill-opacity="0.05"
             />
         </svg>
+        <svg
+            id="svg2"
+            width="634"
+            height="634"
+            viewBox="0 0 634 634"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <circle
+                cx="317"
+                cy="317"
+                r="312"
+                stroke="#27303F"
+                stroke-opacity="0.05"
+                stroke-width="10"
+            />
+        </svg>
 
-        <h2 class="display-1 text-center mb-32">Projets</h2>
+        <h2 class="md:text-6xl font-black text-4xl text-center md:mb-32 mb-16">Projets</h2>
         <Slider :projects="projects" />
     </div>
 </template>
@@ -41,5 +58,11 @@ export default {
 	position: absolute;
 	top: 20px;
 	left: 30px;
+}
+
+#svg2 {
+	position: absolute;
+	bottom: -400px;
+	right: -400px;
 }
 </style>

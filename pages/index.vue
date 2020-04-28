@@ -1,8 +1,9 @@
 <template>
     <div>
-        <Home />
-        <skills />
-        <Projects :projects="projects" />
+        <Home id="home" />
+        <skills id="skills" />
+        <Projects id="projects" :projects="projects" />
+        <Contact id="contact" />
     </div>
 </template>
 
@@ -11,12 +12,14 @@ import { mapState } from 'vuex'
 import Home from '@/components/Home.vue'
 import Skills from '@/components/Skills.vue'
 import Projects from '@/components/Projects.vue'
+import Contact from '@/components/Contact.vue'
 
 export default {
     components: {
         Home,
         Skills,
-        Projects
+        Projects,
+        Contact
     },
     async asyncData({ store, error }) {
         try {

@@ -64,10 +64,10 @@
         </svg>
 
         <div class="py-32 container mx-auto">
-            <h2 class="display-1 text-center mb-32">Compétences</h2>
-            <div class="flex flex-wrap font-bold text-lg">
-                <div class="lg:w-1/4 md:w-1/2 w-full">
-                    <h3 class="uppercase font-normal mb-4">Langages</h3>
+            <h2 class="md:text-6xl font-black text-4xl text-center lg:mb-24 mb-16">Compétences</h2>
+            <div class="flex flex-wrap font-bold text-lg px-8">
+                <div class="lg:w-1/4 w-1/2">
+                    <h3 class="uppercase font-normal mb-4 mt-8">Langages</h3>
                     <ul>
                         <li>Javascript</li>
                         <li>PHP</li>
@@ -77,8 +77,8 @@
                         <li>SQL</li>
                     </ul>
                 </div>
-                <div class="lg:w-1/4 md:w-1/2 w-full">
-                    <h3 class="uppercase font-normal mb-4">Web</h3>
+                <div class="lg:w-1/4 w-1/2">
+                    <h3 class="uppercase font-normal mb-4 mt-8">Web</h3>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -88,16 +88,16 @@
                         <li>Sass</li>
                     </ul>
                 </div>
-                <div class="lg:w-1/4 md:w-1/2 w-full">
-                    <h3 class="uppercase font-normal mb-4">Frameworks</h3>
+                <div class="lg:w-1/4 w-1/2">
+                    <h3 class="uppercase font-normal mb-4 mt-8">Frameworks</h3>
                     <ul>
                         <li>CodeIgniter</li>
                         <li>Vue.js</li>
                         <li>Nuxt.js</li>
                     </ul>
                 </div>
-                <div class="lg:w-1/4 md:w-1/2 w-full">
-                    <h3 class="uppercase font-normal mb-4">Outils</h3>
+                <div class="lg:w-1/4 w-1/2">
+                    <h3 class="uppercase font-normal mb-4 mt-8">Outils</h3>
                     <ul>
                         <li>Git</li>
                         <li>Figma</li>

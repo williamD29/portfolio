@@ -17,6 +17,7 @@
         "axios": "^0.19.2",
         "eases": "^1.0.8",
         "gsap": "^3.2.6",
+        "intersection-observer": "^0.10.0",
         "node-sass": "^4.13.1",
         "nuxt": "^2.0.0",
         "sass-loader": "^8.0.2",
@@ -30,6 +31,8 @@
         "vue-overdrive": "^1.2.0",
         "vue-owl-carousel": "^2.0.3",
         "vue-ripple-directive": "^2.0.1",
+        "vue-scrollama": "^1.1.9",
+        "vue-scrollto": "^2.18.1",
         "vue-text-transition": "^1.0.19",
         "vueg": "^1.4.5",
         "vuenime": "^1.0.3"
