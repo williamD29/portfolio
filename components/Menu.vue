@@ -2,20 +2,8 @@
     <div>
         <label id="label-btn-menu" :class="{ fixed: isOpen, absolute: !isOpen }" for="btn-menu">
             <transition name="slide-up-down" tag="div" mode="out-in">
-                <div v-if="!isOpen" key="1">
-                    <span
-                        v-for="(char, index) in labelNameMenu"
-                        :key="'menu-' + char + index"
-                        class="letter-menu inline-block font-semibold"
-                    >{{ char }}</span>
-                </div>
-                <div v-else key="2">
-                    <span
-                        v-for="(char, index) in labelNameClose"
-                        :key="'menu-' + char + index"
-                        class="letter-close inline-block font-semibold"
-                    >{{ char }}</span>
-                </div>
+                <div v-if="!isOpen" key="1">{{labelNameMenu}}</div>
+                <div v-else key="2">{{labelNameClose}}</div>
             </transition>
         </label>
         <button
@@ -76,8 +64,6 @@
 </template>
 
 <script>
-import gsap from 'gsap'
-
 export default {
 	data() {
 		return {
@@ -88,17 +74,9 @@ export default {
 			labelNameClose: 'fermer'
 		}
 	},
-	mounted() {
-		gsap.config({ nullTargetWarn: false })
-	},
 	methods: {
 		showMenu() {
 			this.isOpen === false ? (this.isOpen = true) : (this.isOpen = false)
-			this.animateOpened()
-		},
-		animateOpened() {
-			gsap.to('.letter-menu', { y: '0.5em', stagger: 0.075 })
-			gsap.to('.letter-close', { y: '0.5em', stagger: 0.05 })
 		}
 	}
 }
@@ -106,7 +84,7 @@ export default {
 
 <style scoped>
 #label-btn-menu {
-	display: inline-flex;
+	display: flex;
 	right: 80px;
 	top: 20px;
 	height: 50px;

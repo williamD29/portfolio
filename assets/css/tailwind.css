@@ -77,10 +77,10 @@ body {
 .link {
     background: linear-gradient(
             to top,
-            transparent 10%,
-            #39bdca65 10.01%,
-            #39bdca65 40%,
-            transparent 40.01%
+            transparent 0,
+            #2b94a265 -0.01%,
+            #2b94a265 10%,
+            transparent 10.01%
         )
         no-repeat;
     background-size: 100% 100%;

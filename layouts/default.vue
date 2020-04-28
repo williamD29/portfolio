@@ -2,9 +2,7 @@
     <div>
         <Back v-if="$nuxt.$route.path !== '/'" />
         <Menu />
-        <div class="py-24">
-            <nuxt />
-        </div>
+        <nuxt />
         <Footer />
     </div>
 </template>

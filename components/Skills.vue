@@ -1,12 +1,73 @@
 <template>
-    <div class="bg-teal-200">
-        <div class="py-16 container mx-auto">
-            <h2 class="display-1 text-center mb-16">Compétences</h2>
+    <div class="bg-teal-200 relative overflow-x-hidden">
+        <svg
+            id="svg1"
+            width="220"
+            height="220"
+            viewBox="0 0 220 220"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <circle cx="10" cy="50" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="50" cy="50" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="90" cy="50" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="130" cy="50" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="170" cy="50" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="210" cy="50" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="10" cy="10" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="50" cy="10" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="90" cy="10" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="130" cy="10" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="170" cy="10" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="210" cy="10" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="10" cy="90" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="50" cy="90" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="90" cy="90" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="130" cy="90" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="170" cy="90" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="210" cy="90" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="10" cy="130" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="50" cy="130" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="90" cy="130" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="130" cy="130" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="170" cy="130" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="210" cy="130" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="10" cy="170" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="50" cy="170" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="90" cy="170" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="130" cy="170" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="170" cy="170" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="210" cy="170" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="10" cy="210" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="50" cy="210" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="90" cy="210" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="130" cy="210" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="170" cy="210" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle cx="210" cy="210" r="10" fill="#0F4450" fill-opacity="0.1" />
+        </svg>
+        <svg
+            id="svg2"
+            width="634"
+            height="634"
+            viewBox="0 0 634 634"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <circle
+                cx="317"
+                cy="317"
+                r="297"
+                stroke="#0F4450"
+                stroke-opacity="0.1"
+                stroke-width="40"
+            />
+        </svg>
+
+        <div class="py-32 container mx-auto">
+            <h2 class="display-1 text-center mb-32">Compétences</h2>
             <div class="flex flex-wrap font-bold text-lg">
                 <div class="lg:w-1/4 md:w-1/2 w-full">
-                    <h3 class="uppercase font-normal mb-4">
-                        Langages
-                    </h3>
+                    <h3 class="uppercase font-normal mb-4">Langages</h3>
                     <ul>
                         <li>Javascript</li>
                         <li>PHP</li>
@@ -17,9 +78,7 @@
                     </ul>
                 </div>
                 <div class="lg:w-1/4 md:w-1/2 w-full">
-                    <h3 class="uppercase font-normal mb-4">
-                        Web
-                    </h3>
+                    <h3 class="uppercase font-normal mb-4">Web</h3>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -30,9 +89,7 @@
                     </ul>
                 </div>
                 <div class="lg:w-1/4 md:w-1/2 w-full">
-                    <h3 class="uppercase font-normal mb-4">
-                        Frameworks
-                    </h3>
+                    <h3 class="uppercase font-normal mb-4">Frameworks</h3>
                     <ul>
                         <li>CodeIgniter</li>
                         <li>Vue.js</li>
@@ -40,9 +97,7 @@
                     </ul>
                 </div>
                 <div class="lg:w-1/4 md:w-1/2 w-full">
-                    <h3 class="uppercase font-normal mb-4">
-                        Outils
-                    </h3>
+                    <h3 class="uppercase font-normal mb-4">Outils</h3>
                     <ul>
                         <li>Git</li>
                         <li>Figma</li>
@@ -60,4 +115,16 @@
 export default {}
 </script>
 
-<style scoped></style>
+<style scoped>
+#svg1 {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+#svg2 {
+	position: absolute;
+	top: -400px;
+	right: -400px;
+}
+</style>
