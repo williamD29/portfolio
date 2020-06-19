@@ -17,15 +17,11 @@
 </template>
 
 <script>
-import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
-import 'swiper/css/swiper.css'
 import orderBy from 'lodash/orderBy'
 import Slide from '@/components/Slide.vue'
 
 export default {
 	components: {
-		Swiper,
-		SwiperSlide,
 		Slide
 	},
 	props: {
@@ -55,6 +51,9 @@ export default {
 	computed: {
 		orderedProjects() {
 			return orderBy(this.projects, 'id', 'desc')
+		},
+		swiper() {
+			return this.$refs.mySwiper.$swiper
 		}
 	}
 }
