@@ -1,4 +1,4 @@
-import ProjectService from './services/ProjectService.js'
+// import ProjectService from './services/ProjectService.js'
 
 export default {
     mode: 'universal',
@@ -50,7 +50,26 @@ export default {
      */
     modules: [
         // Doc: https://axios.nuxtjs.org/usage
-        '@nuxtjs/axios'
+        '@nuxtjs/axios',
+        'nuxt-purgecss',
+        [
+            '@nuxtjs/firebase',
+            {
+                config: {
+                    apiKey: 'AIzaSyDBnWX3JLvPPpnWbelo9XwptcaHYc30Aw8',
+                    authDomain: 'portfolio-wd.firebaseapp.com',
+                    databaseURL: 'https://portfolio-wd.firebaseio.com',
+                    projectId: 'portfolio-wd',
+                    storageBucket: 'portfolio-wd.appspot.com',
+                    messagingSenderId: '93922560810',
+                    appId: '1:93922560810:web:a37f6ab271d24a8d7a6c53',
+                    measurementId: 'G-FMEWDHFNCJ'
+                },
+                services: {
+                    realtimeDb: true
+                }
+            }
+        ]
     ],
     /*
      ** Axios module configuration
@@ -66,13 +85,13 @@ export default {
          */
         vendor: ['velocity-animate'],
         extend(config, ctx) {}
-    },
-    generate: {
+    }
+    /* generate: {
         routes: async () => {
             const response = await ProjectService.getProjects()
             return response.data.map((project) => {
                 return '/project/' + project.title
             })
         }
-    }
+    }, */
 }

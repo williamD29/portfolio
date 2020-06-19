@@ -32,6 +32,7 @@ export default {
             })
         }
     },
+
     computed: mapState({
         projects: (state) => state.projects.projects
     })

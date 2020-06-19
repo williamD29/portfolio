@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-200 py-32 relative overflow-hidden">
+    <div class="bg-gray-100 py-32 relative overflow-hidden">
         <svg
             id="svg1"
             width="227"
@@ -32,7 +32,9 @@
             />
         </svg>
 
-        <h2 class="md:text-6xl font-black text-4xl text-center md:mb-32 mb-16">Projets</h2>
+        <h2 class="md:text-6xl font-black text-4xl text-center md:mb-32 mb-16">
+            Projets
+        </h2>
         <Slider :projects="projects" />
     </div>
 </template>
@@ -41,28 +43,28 @@
 import Slider from '@/components/Slider.vue'
 
 export default {
-	components: {
-		Slider
-	},
-	props: {
-		projects: {
-			type: Array,
-			required: true
-		}
-	}
+    components: {
+        Slider
+    },
+    props: {
+        projects: {
+            type: Array,
+            required: true
+        }
+    }
 }
 </script>
 
 <style scoped>
 #svg1 {
-	position: absolute;
-	top: 20px;
-	left: 30px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
 }
 
 #svg2 {
-	position: absolute;
-	bottom: -400px;
-	right: -400px;
+    position: absolute;
+    bottom: -400px;
+    right: -400px;
 }
 </style>

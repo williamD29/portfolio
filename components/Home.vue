@@ -2,7 +2,7 @@
     <div class="container mx-auto h-screen">
         <div class="py-16 flex flex-wrap-reverse content-center items-center h-full">
             <div
-                class="lg:w-1/2 md:text-left text-center w-full text-2xl font-bold lg:pr-32 lg:mx-0 mx-8"
+                class="lg:w-1/2 md:text-left text-center w-full font-semibold text-2xl lg:pr-32 lg:mx-0 mx-8"
             >
                 <p>
                     Hello, je suis actuellement étudiant en 2
@@ -11,16 +11,34 @@
                     <a class="link" href>IUT de Lannion</a>
                 </p>
                 <p class="mt-8">Bienvenue sur mon site perso !</p>
-                <a
-                    target="_blank"
-                    class="rounded-md px-4 py-2 border border-transparent bg-teal-600 text-white text-base inline-flex justify-center text-center font-semibold tracking-wide hover:bg-teal-500 focus:outline-none focus:shadow-outline-teal focus:border-teal-700 active:bg-teal-700 transition duration-150 ease-in-out text-lg px-6 mt-16"
-                    href="cv.pdf"
-                >Mon CV</a>
+                <div class="flex mt-16">
+                    <a
+                        target="_blank"
+                        class="rounded-md px-12 py-3 border border-transparent bg-teal-600 text-white text-base inline-flex justify-center text-center font-semibold tracking-wide hover:bg-teal-500 focus:outline-none focus:shadow-outline-teal focus:border-teal-700 active:bg-teal-700 transition duration-150 ease-in-out text-lg px-6"
+                        href="cv.pdf"
+                    >Mon CV</a>
+                    <BaseButton
+                        v-scroll-to="{
+                            el: '#skills',
+                            container: 'body',
+                            duration: 500,
+                            easing: 'ease-out',
+                            force: true,
+                            cancelable: true,
+                            x: false,
+                            y: true
+                        }"
+                        other="ml-4"
+                        new-size="px-12 py-3"
+                        new-color="bg-teal-100 hover:bg-teal-50 focus:border-teal-300"
+                        new-text="text-teal-700 text-lg hover:text-teal-600"
+                    >Voir plus</BaseButton>
+                </div>
             </div>
             <div class="lg:w-1/2 flex justify-end w-full">
                 <h1 id="title" class="font-black leading-none md:w-full mx-auto">
                     <div>{{ name }}</div>
-                    <div>&nbsp;&nbsp;&nbsp;{{ firstname }}</div>
+                    <div class="text-teal-600">&nbsp;&nbsp;&nbsp;{{ firstname }}</div>
                 </h1>
             </div>
         </div>

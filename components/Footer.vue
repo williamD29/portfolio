@@ -6,6 +6,7 @@
                 <a
                     class="link"
                     target="_blank"
+                    rel="noreferrer noopener nofollow"
                     href="https://pulseheberg.com/"
                 >PulseHeberg</a>
             </p>
@@ -21,19 +22,35 @@
                 <a
                     class="link"
                     target="_blank"
+                    rel="noreferrer noopener nofollow"
                     href="mailto:william.donval@gmail.com"
                 >william.donval@gmail.com</a>
             </p>
         </div>
         <div class="lg:w-1/3 md:w-1/2 w-full">
             <p>
-                <a class="link" target="_blank" href="https://github.com/williamD29">GitHub</a>
+                <a
+                    class="link"
+                    target="_blank"
+                    rel="noreferrer noopener nofollow"
+                    href="https://github.com/williamD29"
+                >GitHub</a>
             </p>
             <p>
-                <a class="link" target="_blank" href="https://gitlab.com/williamD">GitLab</a>
+                <a
+                    class="link"
+                    target="_blank"
+                    rel="noreferrer noopener nofollow"
+                    href="https://gitlab.com/williamD"
+                >GitLab</a>
             </p>
             <p>
-                <a class="link" target="_blank" href="https://www.linkedin.com/in/wdonval/">LinkedIn</a>
+                <a
+                    class="link"
+                    target="_blank"
+                    rel="noreferrer noopener nofollow"
+                    href="https://www.linkedin.com/in/wdonval/"
+                >LinkedIn</a>
             </p>
         </div>
     </footer>

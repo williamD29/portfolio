@@ -1,4 +1,4 @@
-import ProjectService from '@/services/ProjectService.js'
+// import ProjectService from '@/services/ProjectService.js'
 
 export const state = () => ({
     projects: [],
@@ -14,6 +14,7 @@ export const mutations = {
     }
 }
 
+/*
 export const actions = {
     async fetchProjects({ commit }) {
         const response = await ProjectService.getProjects()
@@ -22,5 +23,31 @@ export const actions = {
     async fetchProject({ commit }, title) {
         const response = await ProjectService.getProject(title)
         commit('SET_PROJECT', response.data)
+    }
+}
+*/
+
+export const actions = {
+    async fetchProjects({ commit }) {
+        const messageRef = this.$fireDb.ref('projects')
+        try {
+            const snapshot = await messageRef.once('value')
+            commit('SET_PROJECTS', snapshot.val())
+        } catch (e) {
+            global.console.error(e)
+        }
+    },
+    async fetchProject({ commit }, title) {
+        const messageRef = this.$fireDb.ref('projects')
+        try {
+            const snapshot = await messageRef.once('value')
+            for (const val of snapshot.val()) {
+                if (val.title === title.replace(/-+/g, ' ')) {
+                    commit('SET_PROJECT', val)
+                }
+            }
+        } catch (e) {
+            global.console.error(e)
+        }
     }
 }

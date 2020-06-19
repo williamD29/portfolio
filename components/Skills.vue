@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-teal-200 relative overflow-x-hidden">
+    <div class="bg-teal-100 relative overflow-x-hidden">
         <svg
             id="svg1"
             width="220"
@@ -29,21 +29,75 @@
             <circle cx="10" cy="130" r="10" fill="#0F4450" fill-opacity="0.1" />
             <circle cx="50" cy="130" r="10" fill="#0F4450" fill-opacity="0.1" />
             <circle cx="90" cy="130" r="10" fill="#0F4450" fill-opacity="0.1" />
-            <circle cx="130" cy="130" r="10" fill="#0F4450" fill-opacity="0.1" />
-            <circle cx="170" cy="130" r="10" fill="#0F4450" fill-opacity="0.1" />
-            <circle cx="210" cy="130" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle
+                cx="130"
+                cy="130"
+                r="10"
+                fill="#0F4450"
+                fill-opacity="0.1"
+            />
+            <circle
+                cx="170"
+                cy="130"
+                r="10"
+                fill="#0F4450"
+                fill-opacity="0.1"
+            />
+            <circle
+                cx="210"
+                cy="130"
+                r="10"
+                fill="#0F4450"
+                fill-opacity="0.1"
+            />
             <circle cx="10" cy="170" r="10" fill="#0F4450" fill-opacity="0.1" />
             <circle cx="50" cy="170" r="10" fill="#0F4450" fill-opacity="0.1" />
             <circle cx="90" cy="170" r="10" fill="#0F4450" fill-opacity="0.1" />
-            <circle cx="130" cy="170" r="10" fill="#0F4450" fill-opacity="0.1" />
-            <circle cx="170" cy="170" r="10" fill="#0F4450" fill-opacity="0.1" />
-            <circle cx="210" cy="170" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle
+                cx="130"
+                cy="170"
+                r="10"
+                fill="#0F4450"
+                fill-opacity="0.1"
+            />
+            <circle
+                cx="170"
+                cy="170"
+                r="10"
+                fill="#0F4450"
+                fill-opacity="0.1"
+            />
+            <circle
+                cx="210"
+                cy="170"
+                r="10"
+                fill="#0F4450"
+                fill-opacity="0.1"
+            />
             <circle cx="10" cy="210" r="10" fill="#0F4450" fill-opacity="0.1" />
             <circle cx="50" cy="210" r="10" fill="#0F4450" fill-opacity="0.1" />
             <circle cx="90" cy="210" r="10" fill="#0F4450" fill-opacity="0.1" />
-            <circle cx="130" cy="210" r="10" fill="#0F4450" fill-opacity="0.1" />
-            <circle cx="170" cy="210" r="10" fill="#0F4450" fill-opacity="0.1" />
-            <circle cx="210" cy="210" r="10" fill="#0F4450" fill-opacity="0.1" />
+            <circle
+                cx="130"
+                cy="210"
+                r="10"
+                fill="#0F4450"
+                fill-opacity="0.1"
+            />
+            <circle
+                cx="170"
+                cy="210"
+                r="10"
+                fill="#0F4450"
+                fill-opacity="0.1"
+            />
+            <circle
+                cx="210"
+                cy="210"
+                r="10"
+                fill="#0F4450"
+                fill-opacity="0.1"
+            />
         </svg>
         <svg
             id="svg2"
@@ -64,7 +118,11 @@
         </svg>
 
         <div class="py-32 container mx-auto">
-            <h2 class="md:text-6xl font-black text-4xl text-center lg:mb-24 mb-16">Compétences</h2>
+            <h2
+                class="md:text-6xl font-black text-4xl text-center lg:mb-24 mb-16"
+            >
+                Compétences
+            </h2>
             <div class="flex flex-wrap font-bold text-lg px-8">
                 <div class="lg:w-1/4 w-1/2">
                     <h3 class="uppercase font-normal mb-4 mt-8">Langages</h3>
@@ -117,14 +175,14 @@ export default {}
 
 <style scoped>
 #svg1 {
-	position: absolute;
-	bottom: 10px;
-	left: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 }
 
 #svg2 {
-	position: absolute;
-	top: -400px;
-	right: -400px;
+    position: absolute;
+    top: -400px;
+    right: -400px;
 }
 </style>

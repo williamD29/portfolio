@@ -9,6 +9,10 @@ body {
     @apply font-body text-gray-800 overflow-x-hidden;
 }
 
+::placeholder {
+    color: #97a6ba !important;
+}
+
 .display-1 {
     @apply text-6xl font-black;
 }
@@ -29,58 +33,58 @@ body {
 }
 
 .badge {
-    @apply py-1 px-2 text-sm rounded-md bg-gray-100 text-gray-800 font-semibold;
+    @apply py-1 px-2 text-sm rounded-md bg-gray-100 text-gray-700 font-semibold;
 }
 .badge.small {
-    @apply text-xs;
+    @apply text-xs !important;
 }
 .badge.info {
-    @apply bg-teal-100 text-teal-800;
+    @apply bg-teal-100 text-teal-700 !important;
 }
 .badge.php {
-    @apply bg-indigo-100 text-indigo-800;
+    @apply bg-indigo-100 text-indigo-700 !important;
 }
 .badge.codeigniter {
-    @apply bg-red-100 text-red-800;
+    @apply bg-red-100 text-red-700 !important;
 }
 .badge.html {
-    @apply bg-orange-100 text-orange-800;
+    @apply bg-orange-100 text-orange-700 !important;
 }
 .badge.css {
-    @apply bg-blue-100 text-blue-800;
+    @apply bg-blue-100 text-blue-700 !important;
 }
 .badge.javascript {
-    @apply bg-yellow-100 text-yellow-800;
+    @apply bg-yellow-100 text-yellow-700 !important;
 }
 .badge.codeigniter {
-    @apply bg-red-100 text-red-800;
+    @apply bg-red-100 text-red-700 !important;
 }
 .badge.bootstrap {
-    @apply bg-purple-100 text-purple-800;
+    @apply bg-purple-100 text-purple-700 !important;
 }
 .badge.tailwind {
-    @apply bg-teal-100 text-teal-800;
+    @apply bg-teal-100 text-teal-700 !important;
 }
 .badge.vuejs {
-    @apply bg-green-100 text-green-800;
+    @apply bg-green-100 text-green-700 !important;
 }
 .badge.nuxt {
-    @apply bg-green-100 text-green-800;
+    @apply bg-green-100 text-green-700 !important;
 }
 .badge.java {
-    @apply bg-red-100 text-red-800;
+    @apply bg-red-100 text-red-700 !important;
 }
 .badge.javafx {
-    @apply bg-orange-100 text-orange-800;
+    @apply bg-orange-100 text-orange-700 !important;
 }
 
 .link {
     background: linear-gradient(
             to top,
             transparent 0,
-            #2b94a265 -0.01%,
-            #2b94a265 10%,
-            transparent 10.01%
+            #39bdca50 0.01%,
+            #39bdca50 30%,
+            transparent 30.01%
         )
         no-repeat;
     background-size: 100% 100%;
@@ -115,7 +119,7 @@ body {
         display: inline-block;
         position: relative;
         background: white;
-        mix-blend-mode: multiply;
+        mix-blend-mode: normal;
     }
     .blend:hover::before {
         width: 100%;
@@ -131,7 +135,7 @@ body {
         right: 0;
         bottom: 0;
         width: 0;
-        background-color: #2b94a2;
+        @apply bg-teal-600;
         pointer-events: none;
         transition: width 0.3s ease-out;
     }

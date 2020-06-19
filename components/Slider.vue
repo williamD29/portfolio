@@ -1,17 +1,19 @@
 <template>
-    <swiper class="swiper w-full" :options="swiperOption">
-        <swiper-slide v-for="(project, index) in orderedProjects" :key="index" class="slide">
-            <Slide :project="project" />
-        </swiper-slide>
-        <div
-            slot="button-prev"
-            class="swiper-button-next rounded-full bg-white shadow-md relative focus:shadow-outline-teal-md"
-        ></div>
-        <div
-            slot="button-next"
-            class="swiper-button-prev rounded-full bg-white shadow-md relative focus:shadow-outline-teal-md"
-        ></div>
-    </swiper>
+    <client-only>
+        <swiper class="swiper w-full" :options="swiperOption">
+            <swiper-slide v-for="(project, index) in orderedProjects" :key="index" class="slide">
+                <Slide :project="project" />
+            </swiper-slide>
+            <div
+                slot="button-prev"
+                class="swiper-button-next rounded-full bg-white shadow-md relative focus:shadow-outline-teal-md"
+            ></div>
+            <div
+                slot="button-next"
+                class="swiper-button-prev rounded-full bg-white shadow-md relative focus:shadow-outline-teal-md"
+            ></div>
+        </swiper>
+    </client-only>
 </template>
 
 <script>
