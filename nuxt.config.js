@@ -83,6 +83,7 @@ export default {
         /*
          ** You can extend webpack config here
          */
+        extractCSS: true,
         vendor: ['velocity-animate'],
         extend(config, ctx) {}
     }

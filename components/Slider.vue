@@ -20,6 +20,7 @@
 import orderBy from 'lodash/orderBy'
 import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
 import Slide from '@/components/Slide.vue'
+import 'swiper/css/swiper.css'
 
 export default {
 	components: {
