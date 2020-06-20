@@ -18,11 +18,14 @@
 
 <script>
 import orderBy from 'lodash/orderBy'
+import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
 import Slide from '@/components/Slide.vue'
 
 export default {
 	components: {
-		Slide
+		Slide,
+		Swiper,
+		SwiperSlide
 	},
 	props: {
 		projects: {
