@@ -7,8 +7,18 @@
                 <p>
                     Hello, je suis actuellement étudiant en 2
                     <sup>ème</sup> année de
-                    <a class="link" href>DUT Informatique</a> à l'
-                    <a class="link" href>IUT de Lannion</a>
+                    <a
+                        class="link"
+                        target="_blank"
+                        rel="noopener noreferrer nofollow"
+                        href="http://www.iut-lannion.fr/dut-informatique-contenus"
+                    >DUT Informatique</a> à l'
+                    <a
+                        class="link"
+                        target="_blank"
+                        rel="noopener noreferrer nofollow"
+                        href="http://www.iut-lannion.fr/"
+                    >IUT de Lannion</a>
                 </p>
                 <p class="mt-8">Bienvenue sur mon site perso !</p>
                 <div class="flex mt-16">
